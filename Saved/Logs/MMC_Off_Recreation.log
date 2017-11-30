@@ -1,12 +1,12 @@
-﻿Log file open, 11/30/17 11:14:42
+﻿Log file open, 11/30/17 12:19:03
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: MMC_Off_Recreation
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1695547137) SRandInit(-1695547137).
+LogInit: Display: RandInit(-1413921697) SRandInit(-1413921697).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.162695
+LogStats: Stats thread started at 0.155953
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,527 +108,827 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.30-16.14.43:455][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.30-16.14.43:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.30-16.14.43:467][  0]LogInit: Computer: HS-MT330-6
-[2017.11.30-16.14.43:467][  0]LogInit: User: jhamilton
-[2017.11.30-16.14.43:467][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.30-16.14.43:467][  0]LogInit: High frequency timer resolution =3.410126 MHz
-[2017.11.30-16.14.43:467][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.30-16.14.43:467][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.30-16.14.43:467][  0]LogMemory: Process Physical Memory: 279.60 MB used, 279.60 MB peak
-[2017.11.30-16.14.43:467][  0]LogMemory: Process Virtual Memory: 277.26 MB used, 277.26 MB peak
-[2017.11.30-16.14.43:467][  0]LogMemory: Physical Memory: 6734.30 MB used,  9572.10 MB free, 16306.40 MB total
-[2017.11.30-16.14.43:467][  0]LogMemory: Virtual Memory: 656.17 MB used,  9572.10 MB free, 8388608.00 MB total
-[2017.11.30-16.14.43:650][  0]LogInit: Using OS detected language (en-US).
-[2017.11.30-16.14.43:650][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.30-16.14.43:652][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.30-16.14.44:355][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.30-16.14.44:382][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.11.30-16.14.44:382][  0]LogD3D11RHI:       8070/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.30-16.14.44:382][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.30-16.14.44:387][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.30-16.14.44:387][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.30-16.14.44:387][  0]LogWindows: EnumDisplayDevices:
-[2017.11.30-16.14.44:387][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.11.30-16.14.44:388][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.11.30-16.14.44:388][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.30-16.14.44:388][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.30-16.14.44:388][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.11.30-16.14.44:388][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.11.30-16.14.44:388][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.11.30-16.14.44:389][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.11.30-16.14.44:389][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.11.30-16.14.44:389][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
-[2017.11.30-16.14.44:389][  0]LogD3D11RHI:      Driver Date: 7-18-2017
-[2017.11.30-16.14.44:389][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.30-16.14.44:401][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.30-16.14.44:416][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.11.30-16.14.44:459][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Intermediate/Shaders/WorkingDirectory/10292/).
-[2017.11.30-16.14.44:459][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jhamilton/AppData/Local/Temp/UnrealShaderWorkingDir/3293872C458372CE466F9FA7CBE777AD/'.
-[2017.11.30-16.14.44:459][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.30-16.14.45:531][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.30-16.14.45:596][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.30-16.14.45:669][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.30-16.14.45:723][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.30-16.14.45:790][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.30-16.14.45:862][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.30-16.14.45:912][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.30-16.14.45:976][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.30-16.14.46:039][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.30-16.14.46:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.30-16.14.46:137][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.30-16.14.46:186][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.30-16.14.46:234][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.30-16.14.46:293][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.30-16.14.46:358][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.30-16.14.46:455][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.30-16.14.46:455][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.30-16.14.46:501][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.30-16.14.46:602][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.30-16.14.46:630][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.30-16.14.46:687][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.30-16.14.46:739][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.30-16.14.46:786][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.30-16.14.46:842][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.30-16.14.46:842][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.30-16.14.47:351][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.30-16.14.47:461][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/jhamilton/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.30-16.14.47:461][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jhamilton/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.30-16.14.47:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.30-16.14.47:461][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.30-16.14.47:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.30-16.14.47:461][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.30-16.14.47:482][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.30-16.14.47:494][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jhamilton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.30-16.14.47:504][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.30-16.14.47:504][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.30-16.14.47:505][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.30-16.14.47:505][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.30-16.14.47:778][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
-[2017.11.30-16.14.47:940][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.30-16.14.47:944][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.30-16.14.48:321][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.30-16.14.48:370][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.30-16.14.48:370][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.30-16.14.48:370][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.30-16.14.48:370][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.30-16.14.48:370][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.30-16.14.48:778][  0]LogNetVersion: MMC_Off_Recreation , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 116792171)
-[2017.11.30-16.14.48:992][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.036120 seconds
-[2017.11.30-16.14.48:997][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.30-16.14.48:997][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.30-16.14.48:997][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.30-16.14.49:052][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.30-16.14.51:690][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.30-16.14.51:723][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.30-16.14.52:380][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.30-16.14.52:802][  0]SourceControl: Source control is disabled
-[2017.11.30-16.14.52:802][  0]SourceControl: Source control is disabled
-[2017.11.30-16.14.52:860][  0]SourceControl: Source control is disabled
-[2017.11.30-16.14.52:907][  0]SourceControl: Source control is disabled
-[2017.11.30-16.14.53:497][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.30-16.14.53:749][  0]LogOcInput: OculusInput pre-init called
-[2017.11.30-16.14.53:984][  0]LogEngine: Initializing Engine...
-[2017.11.30-16.14.53:985][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.30-16.14.54:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.30-16.14.54:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.30-16.14.54:373][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.30-16.14.54:396][  0]LogInit: XAudio2 using 'Speaker (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.30-16.14.54:412][  0]LogInit: FAudioDevice initialized.
-[2017.11.30-16.14.54:549][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/jhamilton/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.30-16.14.54:561][  0]LogInit: Texture streaming: Enabled
-[2017.11.30-16.14.54:667][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.30-16.14.54:882][  0]LogInit: Transaction tracking system initialized
-[2017.11.30-16.14.55:203][  0]BlueprintLog: New page: Editor Load
-[2017.11.30-16.14.56:143][  0]LocalizationService: Localization service is disabled
-[2017.11.30-16.14.56:844][  0]LogConsoleResponse: Display: 
-[2017.11.30-16.14.57:028][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.30-16.14.57:028][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.30-16.14.57:028][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.30-16.14.57:053][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/' took 0.01s
-[2017.11.30-16.14.58:110][  0]SourceControl: Source control is disabled
-[2017.11.30-16.14.58:111][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.30-16.14.58:111][  0]LightingResults: New page: Lighting Build
-[2017.11.30-16.14.58:168][  0]MapCheck: New page: Map Check
-[2017.11.30-16.14.58:168][  0]LightingResults: New page: Lighting Build
-[2017.11.30-16.14.58:489][  0]LogAIModule: Creating AISystem for world Office
-[2017.11.30-16.14.58:503][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.30-16.14.58:518][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.30-16.14.58:577][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.248ms to complete.
-[2017.11.30-16.14.58:578][  0]LogFileHelpers: Loading map 'Office' took 0.467
-[2017.11.30-16.14.58:739][  0]LogCollectionManager: Loaded 0 collections in 0.001269 seconds
-[2017.11.30-16.14.58:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Collections/' took 0.01s
-[2017.11.30-16.14.58:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Developers/jhamilton/Collections/' took 0.01s
-[2017.11.30-16.14.58:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Collections/' took 0.01s
-[2017.11.30-16.14.58:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.30-16.14.58:838][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2386 classes and 500 folders.
-[2017.11.30-16.14.58:907][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.30-16.14.58:942][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.30-16.14.58:983][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.30-16.14.59:002][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.30-16.14.59:004][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.30-16.14.59:008][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.30-16.14.59:100][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 26 NumSamples 1 (Frame:1).
-[2017.11.30-16.14.59:340][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.11.30-16.14.59:340][  0]LogLoad: (Engine Initialization) Total time: 17.53 seconds
-[2017.11.30-16.14.59:340][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.30-16.14.59:341][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.11.30-16.14.59:341][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.11.30-16.14.59:368][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.30-16.14.59:418][  1]LogAssetRegistry: Asset discovery search completed in 11.6611 seconds
-[2017.11.30-16.14.59:420][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.30-16.14.59:420][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
-[2017.11.30-16.18.00:805][555]Cmd: EDIT COPY
-[2017.11.30-16.18.02:054][704]Cmd: EDIT PASTE
-[2017.11.30-16.19.39:823][133]LogEditorViewport: Clicking Background
-[2017.11.30-16.19.44:445][686]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush109)
-[2017.11.30-16.20.27:596][317]LogEditorViewport: Clicking Background
-[2017.11.30-16.24.49:461][440]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.30-16.24.49:469][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.24.49:850][440]LogSavePackage: Save=351.43ms
-[2017.11.30-16.24.49:850][440]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office9EA456CA4899E11EFBE507B84C499A43.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.24.49:853][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.24.49:898][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.24.50:014][440]LogSavePackage: Save=92.30ms
-[2017.11.30-16.24.50:014][440]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltData0D916223433D2B774C9F258C1C752A55.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.24.50:015][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.24.50:866][501]MapCheck: New page: Map Check
-[2017.11.30-16.24.50:890][501]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.30-16.24.50:890][501]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.30-16.24.52:177][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.30-16.24.52:186][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy carpet_Mat, compiling. 
-[2017.11.30-16.24.52:195][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy drywall_Mat, compiling. 
-[2017.11.30-16.24.52:205][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrayWall_Mat, compiling. 
-[2017.11.30-16.24.52:214][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
-[2017.11.30-16.24.52:224][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy woodPanelColor_Mat, compiling. 
-[2017.11.30-16.24.52:233][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
-[2017.11.30-16.24.52:240][501]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2017.11.30-16.24.53:015][501]TextureStreamingBuild: Display: Compiling optional shaders took 0.845 seconds.
-[2017.11.30-16.24.53:026][501]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
-[2017.11.30-16.24.53:039][501]TextureStreamingBuild: Display: Build Texture Streaming took 0.013 seconds.
-[2017.11.30-16.24.53:052][501]LightingResults: New page: Lighting Build - Nov 30, 2017, 6:24:53 AM
-[2017.11.30-16.24.53:102][501]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.30-16.24.53:119][501]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.30-16.24.53:127][501]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.30-16.24.54:135][501]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.30-16.24.54:135][501]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10292
-[2017.11.30-16.24.59:277][501]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.30-16.24.59:278][501]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.30-16.24.59:278][501]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.30-16.24.59:278][501]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.30-16.24.59:278][501]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.30-16.24.59:278][501]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.30-16.24.59:389][501]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.30-16.24.59:389][501]MapCheck: New page: Office - Nov 30, 2017, 6:24:59 AM
-[2017.11.30-16.24.59:441][501]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.251ms to complete.
-[2017.11.30-16.24.59:462][501]LogEditorBuildUtils: Build time 0:08
-[2017.11.30-16.25.03:107][651]Job is a success!
-[2017.11.30-16.25.03:381][653]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
-[2017.11.30-16.25.03:381][653]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2017.11.30-16.25.03:381][653]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2017.11.30-16.25.03:410][653]Lightmass on HS-MT330-6: 1.64 sec total, 218 ms importing, 79 ms setup, 261 ms photons, 1.05 sec processing, 0 ms extra exporting [657/657 mappings]. Threads: 7.19 sec total, 1.38 sec processing.
-[2017.11.30-16.25.03:667][653]LogStaticLightingSystem: Illumination: 10.5 sec (109 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2017.11.30-16.25.03:667][653]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 2 textures
-[2017.11.30-16.25.03:667][653]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2017.11.30-16.25.04:276][653]DumpUnbuiltLightIteractions
-[2017.11.30-16.25.04:276][653]Lights with unbuilt interactions: 0
-[2017.11.30-16.25.04:276][653]
-[2017.11.30-16.25.04:276][653]Primitives with unbuilt interactions: 0
-[2017.11.30-16.25.04:282][654]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.30-16.25.04:282][654]MapCheck: New page: Office - Nov 30, 2017, 6:25:04 AM
-[2017.11.30-16.25.04:376][654]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.626ms to complete.
-[2017.11.30-16.26.40:958][134]Cmd: EDCALLBACK SURFPROPS
-[2017.11.30-16.27.45:684][351]LogEditorViewport: Clicking Background
-[2017.11.30-16.28.15:383][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.28.15:756][842]LogSavePackage: Save=357.45ms
-[2017.11.30-16.28.15:756][842]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/OfficeAEF1D93B4D47ADDD6D6D759E329F9B6E.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.28.15:759][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.28.15:801][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.28.15:840][842]LogSavePackage: Save=32.82ms
-[2017.11.30-16.28.15:840][842]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltData713B1F6648E9AC55A5DE2AA84822C38E.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.28.15:844][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.28.17:021][934]MapCheck: New page: Map Check
-[2017.11.30-16.28.17:041][934]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.30-16.28.17:041][934]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.30-16.28.18:146][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.30-16.28.18:154][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy carpet_Mat, compiling. 
-[2017.11.30-16.28.18:161][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy drywall_Mat, compiling. 
-[2017.11.30-16.28.18:168][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrayWall_Mat, compiling. 
-[2017.11.30-16.28.18:175][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
-[2017.11.30-16.28.18:183][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy woodPanelColor_Mat, compiling. 
-[2017.11.30-16.28.18:190][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
-[2017.11.30-16.28.18:198][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2017.11.30-16.28.18:945][934]TextureStreamingBuild: Display: Compiling optional shaders took 0.804 seconds.
-[2017.11.30-16.28.18:951][934]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
-[2017.11.30-16.28.18:964][934]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
-[2017.11.30-16.28.18:976][934]LightingResults: New page: Lighting Build - Nov 30, 2017, 6:28:18 AM
-[2017.11.30-16.28.19:001][934]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.30-16.28.19:002][934]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.30-16.28.19:002][934]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.30-16.28.19:003][934]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.30-16.28.19:003][934]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10292
-[2017.11.30-16.28.23:508][934]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.30-16.28.23:508][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.30-16.28.23:508][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.30-16.28.23:508][934]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.30-16.28.23:508][934]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.30-16.28.23:508][934]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.30-16.28.23:607][934]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.30-16.28.23:607][934]MapCheck: New page: Office - Nov 30, 2017, 6:28:23 AM
-[2017.11.30-16.28.23:660][934]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.536ms to complete.
-[2017.11.30-16.28.23:680][934]LogEditorBuildUtils: Build time 0:06
-[2017.11.30-16.28.26:095][ 42]Job is a success!
-[2017.11.30-16.28.26:465][ 43]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.11.30-16.28.26:465][ 43]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.11.30-16.28.26:465][ 43]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2017.11.30-16.28.26:512][ 43]Lightmass on HS-MT330-6: 1.77 sec total, 186 ms importing, 57 ms setup, 258 ms photons, 1.23 sec processing, 0 ms extra exporting [666/666 mappings]. Threads: 8.51 sec total, 1.19 sec processing.
-[2017.11.30-16.28.26:647][ 43]LogStaticLightingSystem: Illumination: 7.63 sec (227 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2017.11.30-16.28.26:647][ 43]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 2 textures
-[2017.11.30-16.28.26:647][ 43]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2017.11.30-16.28.27:508][ 43]DumpUnbuiltLightIteractions
-[2017.11.30-16.28.27:508][ 43]Lights with unbuilt interactions: 0
-[2017.11.30-16.28.27:508][ 43]
-[2017.11.30-16.28.27:508][ 43]Primitives with unbuilt interactions: 0
-[2017.11.30-16.28.27:513][ 44]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.30-16.28.27:514][ 44]MapCheck: New page: Office - Nov 30, 2017, 6:28:27 AM
-[2017.11.30-16.28.27:594][ 44]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.795ms to complete.
-[2017.11.30-16.30.13:220][997]LogEditorViewport: Clicking Background
-[2017.11.30-16.30.33:055][786]LogEditorViewport: Clicking Background
-[2017.11.30-16.31.32:808][745]LogEditorViewport: Clicking Background
-[2017.11.30-16.31.47:045][300]LogEditorViewport: Clicking Background
-[2017.11.30-16.31.47:831][391]Cmd: TRANSACTION UNDO
-[2017.11.30-16.31.47:831][391]LogEditorTransaction: Undo Clicking Background
-[2017.11.30-16.31.47:864][391]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.30-16.31.48:351][422]Cmd: TRANSACTION UNDO
-[2017.11.30-16.31.48:351][422]LogEditorTransaction: Undo Edit Outer Radius
-[2017.11.30-16.31.48:379][422]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
-[2017.11.30-16.31.48:379][422]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
-[2017.11.30-16.31.48:391][422]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
-[2017.11.30-16.31.48:394][422]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush100_1.BrushComponent0) Component already registered.
-[2017.11.30-16.31.48:395][422]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
-[2017.11.30-16.31.48:396][422]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush85.BrushComponent0) Component already registered.
-[2017.11.30-16.31.58:745][411]LogEditorViewport: Clicking Background
-[2017.11.30-16.32.20:009][238]LogEditorViewport: Clicking Background
-[2017.11.30-16.33.09:640][ 77]LogEditorViewport: Clicking Background
-[2017.11.30-16.34.29:340][401]LogEditorViewport: Clicking Background
-[2017.11.30-16.34.30:657][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.34.31:187][516]LogSavePackage: Save=482.96ms
-[2017.11.30-16.34.31:187][516]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office320BACF94CE4416348FEE1964EB3109E.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.34.31:193][516]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.34.31:241][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.34.31:303][516]LogSavePackage: Save=52.80ms
-[2017.11.30-16.34.31:303][516]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltDataDA618ADC44230895E7F8518C4D616960.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.34.31:306][516]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.35.33:395][649]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
-[2017.11.30-16.35.48:701][299]LogEditorViewport: Clicking Background
-[2017.11.30-16.35.52:923][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.35.53:576][783]LogSavePackage: Save=607.68ms
-[2017.11.30-16.35.53:576][783]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/OfficeEB5954944FDC3BD45EEDC2AA77D3BBD3.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.35.53:579][783]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.35.53:615][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.35.53:692][783]LogSavePackage: Save=71.21ms
-[2017.11.30-16.35.53:692][783]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltDataB4E5B50341C74C7F45F485BB8E157576.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.35.53:693][783]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.36.02:224][763]LogEditorViewport: Clicking Background
-[2017.11.30-16.37.23:779][643]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush101)
-[2017.11.30-16.37.26:042][910]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush27)
-[2017.11.30-16.37.27:561][ 88]LogEditorViewport: Clicking Background
-[2017.11.30-16.37.28:916][249]Cmd: TRANSACTION UNDO
-[2017.11.30-16.37.28:916][249]LogEditorTransaction: Undo Clicking Background
-[2017.11.30-16.37.29:789][318]Cmd: TRANSACTION UNDO
-[2017.11.30-16.37.29:789][318]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.37.30:313][361]Cmd: TRANSACTION UNDO
-[2017.11.30-16.37.30:313][361]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.37.30:886][409]Cmd: TRANSACTION UNDO
-[2017.11.30-16.37.30:886][409]LogEditorTransaction: Undo Move Actors
-[2017.11.30-16.37.30:912][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
-[2017.11.30-16.37.30:914][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush46.BrushComponent0) Component already registered.
-[2017.11.30-16.37.30:921][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush2_3.BrushComponent0) Component already registered.
-[2017.11.30-16.37.30:923][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush78.BrushComponent0) Component already registered.
-[2017.11.30-16.37.30:924][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
-[2017.11.30-16.37.31:882][489]LogEditorViewport: Clicking Background
-[2017.11.30-16.37.32:822][569]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush101)
-[2017.11.30-16.37.56:006][966]Cmd: TRANSACTION UNDO
-[2017.11.30-16.37.56:006][966]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.37.57:206][ 64]Cmd: TRANSACTION UNDO
-[2017.11.30-16.37.57:206][ 64]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.37.58:580][181]Cmd: TRANSACTION UNDO
-[2017.11.30-16.37.58:580][181]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.01:372][423]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.01:372][423]LogEditorTransaction: Undo Clicking Background
-[2017.11.30-16.38.03:050][567]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.03:050][567]LogEditorTransaction: Undo Clicking on Brush Vertex
-[2017.11.30-16.38.03:077][567]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
-[2017.11.30-16.38.03:078][567]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush46.BrushComponent0) Component already registered.
-[2017.11.30-16.38.03:086][567]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush2_3.BrushComponent0) Component already registered.
-[2017.11.30-16.38.03:088][567]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush78.BrushComponent0) Component already registered.
-[2017.11.30-16.38.03:089][567]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
-[2017.11.30-16.38.03:560][602]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.03:560][602]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.04:259][661]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.04:259][661]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.04:727][700]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.04:727][700]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.05:186][738]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.05:187][738]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.05:607][773]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.05:607][773]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.06:068][811]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.06:068][811]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.06:634][860]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.06:634][860]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.30-16.38.07:258][912]Cmd: TRANSACTION UNDO
-[2017.11.30-16.38.07:258][912]LogEditorTransaction: Undo Move World Outliner Items
-[2017.11.30-16.40.03:823][821]LogEditorViewport: Clicking Background
-[2017.11.30-16.40.42:766][281]LogEditorViewport: Clicking Background
-[2017.11.30-16.41.01:620][404]LogEditorViewport: Clicking Background
-[2017.11.30-16.41.07:174][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.41.07:549][ 34]LogSavePackage: Save=341.98ms
-[2017.11.30-16.41.07:549][ 34]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office5056D56045005D72BCE02FAF44BE0737.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.41.07:552][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.41.07:707][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.41.07:798][ 34]LogSavePackage: Save=70.98ms
-[2017.11.30-16.41.07:798][ 34]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltDataAB6F41AF45957A2E510AD0BF60AF7825.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.41.07:800][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.41.28:091][441]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
-[2017.11.30-16.41.30:074][674]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.11.30-16.41.33:661][101]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.11.30-16.41.36:399][427]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.11.30-16.41.41:929][ 87]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.11.30-16.41.42:919][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.41.43:262][187]LogSavePackage: Save=323.16ms
-[2017.11.30-16.41.43:262][187]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office4C9218DC4FA6E4E32556C49916E541EF.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.41.43:265][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.41.43:714][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.41.43:788][187]LogSavePackage: Save=68.21ms
-[2017.11.30-16.41.43:788][187]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltData43CFF52042FB4E33F32324B5CF1EC615.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.41.43:790][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.41.44:329][251]LogEditorViewport: Clicking Background
-[2017.11.30-16.43.00:053][139]LogEditorViewport: Clicking Background
-[2017.11.30-16.43.06:601][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.43.06:942][901]LogSavePackage: Save=324.08ms
-[2017.11.30-16.43.06:942][901]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office6770B09D49AAF54C502AE196E250B6CD.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.43.06:945][901]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.43.06:980][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.43.07:039][901]LogSavePackage: Save=52.70ms
-[2017.11.30-16.43.07:039][901]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltData73266A5749992FAAAB2100B7CEAF7432.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.43.07:040][901]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.43.53:530][247]LogEditorViewport: Clicking Background
-[2017.11.30-16.44.06:778][833]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
-[2017.11.30-16.44.09:898][203]LogEditorViewport: Clicking Background
-[2017.11.30-16.44.53:505][ 57]LogEditorViewport: Clicking Background
-[2017.11.30-16.47.22:955][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.47.23:308][965]LogSavePackage: Save=328.23ms
-[2017.11.30-16.47.23:308][965]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office72DBCE9B4844C84F974992BBFD213A88.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.47.23:311][965]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.47.23:341][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.47.23:417][965]LogSavePackage: Save=56.13ms
-[2017.11.30-16.47.23:417][965]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltData3083157044272551385BAD885149524C.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.47.23:418][965]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.47.23:885][998]MapCheck: New page: Map Check
-[2017.11.30-16.47.23:909][998]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.30-16.47.23:909][998]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.30-16.47.24:915][998]LogEditorServer: Cleared 2 NULL BSP materials after rebuild.
-[2017.11.30-16.47.24:942][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.30-16.47.24:950][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy carpet_Mat, compiling. 
-[2017.11.30-16.47.24:957][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy drywall_Mat, compiling. 
-[2017.11.30-16.47.24:963][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrayWall_Mat, compiling. 
-[2017.11.30-16.47.24:970][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
-[2017.11.30-16.47.24:978][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy woodPanelColor_Mat, compiling. 
-[2017.11.30-16.47.24:984][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
-[2017.11.30-16.47.24:992][998]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2017.11.30-16.47.25:751][998]TextureStreamingBuild: Display: Compiling optional shaders took 0.814 seconds.
-[2017.11.30-16.47.25:756][998]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
-[2017.11.30-16.47.25:769][998]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
-[2017.11.30-16.47.25:777][998]LightingResults: New page: Lighting Build - Nov 30, 2017, 6:47:25 AM
-[2017.11.30-16.47.25:802][998]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.30-16.47.25:804][998]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.30-16.47.25:804][998]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.30-16.47.25:805][998]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.30-16.47.25:805][998]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10292
-[2017.11.30-16.47.30:309][998]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.30-16.47.30:309][998]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.30-16.47.30:309][998]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.30-16.47.30:309][998]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.30-16.47.30:309][998]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.30-16.47.30:309][998]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.30-16.47.30:397][998]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.30-16.47.30:397][998]MapCheck: New page: Office - Nov 30, 2017, 6:47:30 AM
-[2017.11.30-16.47.30:450][998]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.413ms to complete.
-[2017.11.30-16.47.30:470][998]LogEditorBuildUtils: Build time 0:06
-[2017.11.30-16.47.32:556][ 89]Job is a success!
-[2017.11.30-16.47.32:789][ 90]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
-[2017.11.30-16.47.32:789][ 90]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2017.11.30-16.47.32:789][ 90]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2017.11.30-16.47.32:804][ 90]Lightmass on HS-MT330-6: 1.27 sec total, 174 ms importing, 58 ms setup, 256 ms photons, 751 ms processing, 0 ms extra exporting [659/659 mappings]. Threads: 5.10 sec total, 978 ms processing.
-[2017.11.30-16.47.32:841][ 90]LogStaticLightingSystem: Illumination: 7.02 sec (92 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2017.11.30-16.47.32:841][ 90]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 2 textures
-[2017.11.30-16.47.32:841][ 90]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2017.11.30-16.47.33:308][ 90]DumpUnbuiltLightIteractions
-[2017.11.30-16.47.33:308][ 90]Lights with unbuilt interactions: 0
-[2017.11.30-16.47.33:308][ 90]
-[2017.11.30-16.47.33:308][ 90]Primitives with unbuilt interactions: 0
-[2017.11.30-16.47.33:341][ 91]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.30-16.47.33:341][ 91]MapCheck: New page: Office - Nov 30, 2017, 6:47:33 AM
-[2017.11.30-16.47.33:394][ 91]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.368ms to complete.
-[2017.11.30-16.51.09:366][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.51.09:654][229]LogSavePackage: Save=271.88ms
-[2017.11.30-16.51.09:654][229]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office0FF2BA4643B642E776D24587C5ADFF55.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.51.09:657][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.51.09:686][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.51.09:716][229]LogSavePackage: Save=23.58ms
-[2017.11.30-16.51.09:716][229]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltData83CF2F4248F056F83C3DFF89056DC6BA.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.51.09:718][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.51.10:213][263]MapCheck: New page: Map Check
-[2017.11.30-16.51.10:238][263]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.30-16.51.10:238][263]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.30-16.51.11:273][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.30-16.51.11:281][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy carpet_Mat, compiling. 
-[2017.11.30-16.51.11:287][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy drywall_Mat, compiling. 
-[2017.11.30-16.51.11:294][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrayWall_Mat, compiling. 
-[2017.11.30-16.51.11:301][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
-[2017.11.30-16.51.11:308][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy woodPanelColor_Mat, compiling. 
-[2017.11.30-16.51.11:315][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
-[2017.11.30-16.51.11:322][263]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2017.11.30-16.51.12:285][263]TextureStreamingBuild: Display: Compiling optional shaders took 1.018 seconds.
-[2017.11.30-16.51.12:293][263]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
-[2017.11.30-16.51.12:305][263]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
-[2017.11.30-16.51.12:315][263]LightingResults: New page: Lighting Build - Nov 30, 2017, 6:51:12 AM
-[2017.11.30-16.51.12:341][263]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.30-16.51.12:342][263]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.30-16.51.12:342][263]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.30-16.51.12:343][263]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.30-16.51.12:343][263]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10292
-[2017.11.30-16.51.16:848][263]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.30-16.51.16:848][263]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.30-16.51.16:848][263]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.30-16.51.16:848][263]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.30-16.51.16:848][263]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.30-16.51.16:848][263]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.30-16.51.16:957][263]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.30-16.51.16:957][263]MapCheck: New page: Office - Nov 30, 2017, 6:51:16 AM
-[2017.11.30-16.51.17:011][263]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.436ms to complete.
-[2017.11.30-16.51.17:031][263]LogEditorBuildUtils: Build time 0:06
-[2017.11.30-16.51.19:055][345]Job is a success!
-[2017.11.30-16.51.19:283][346]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
-[2017.11.30-16.51.19:283][346]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2017.11.30-16.51.19:283][346]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2017.11.30-16.51.19:303][346]Lightmass on HS-MT330-6: 1.25 sec total, 169 ms importing, 33 ms setup, 259 ms photons, 749 ms processing, 0 ms extra exporting [659/659 mappings]. Threads: 5.09 sec total, 960 ms processing.
-[2017.11.30-16.51.19:367][346]LogStaticLightingSystem: Illumination: 7.01 sec (89 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2017.11.30-16.51.19:367][346]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 2 textures
-[2017.11.30-16.51.19:367][346]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2017.11.30-16.51.19:848][346]DumpUnbuiltLightIteractions
-[2017.11.30-16.51.19:848][346]Lights with unbuilt interactions: 0
-[2017.11.30-16.51.19:848][346]
-[2017.11.30-16.51.19:848][346]Primitives with unbuilt interactions: 0
-[2017.11.30-16.51.19:876][347]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.30-16.51.19:876][347]MapCheck: New page: Office - Nov 30, 2017, 6:51:19 AM
-[2017.11.30-16.51.19:928][347]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.156ms to complete.
-[2017.11.30-16.52.56:122][594]LogEditorViewport: Clicking Background
-[2017.11.30-16.54.13:359][904]LogEditorViewport: Clicking Background
-[2017.11.30-16.54.29:238][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.54.29:541][779]LogSavePackage: Save=279.27ms
-[2017.11.30-16.54.29:541][779]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office101F994C447379E5545DED96C4AE8608.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.54.29:545][779]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.54.29:597][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.54.29:648][779]LogSavePackage: Save=38.19ms
-[2017.11.30-16.54.29:648][779]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltDataADF93C0842A4DCABA018C981BF3A9140.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.54.29:651][779]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
-[2017.11.30-16.56.27:741][334]LogEditor: Attempting to add actor of class 'VREditorDockableWindow' to level at -59.19,-302.49,469.74
-[2017.11.30-16.56.29:987][573]LogEditor: Attempting to add actor of class 'VREditorDockableWindow' to level at -59.19,-302.49,469.74
-[2017.11.30-16.57.46:133][833]LogActorFactory: Actor Factory created SM_WindowFrame
-[2017.11.30-16.57.48:113][ 68]LogActorFactory: Actor Factory created SM_WindowFrame
-[2017.11.30-16.58.47:651][183]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_WindowFrame)
-[2017.11.30-16.58.49:916][401]Cmd: EDIT CUT
-[2017.11.30-16.58.49:920][401]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.30-16.58.49:928][401]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2017.11.30-16.58.50:852][511]LogEditorViewport: Clicking Background
-[2017.11.30-16.58.51:817][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.30-16.58.52:101][594]LogSavePackage: Save=269.31ms
-[2017.11.30-16.58.52:101][594]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/OfficeDD92B0D843F81CA229130E9CA1877A60.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap'
-[2017.11.30-16.58.52:107][594]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office.umap
-[2017.11.30-16.58.52:138][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
-[2017.11.30-16.58.52:174][594]LogSavePackage: Save=29.16ms
-[2017.11.30-16.58.52:174][594]LogSavePackage: Moving '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Saved/Office_BuiltData7865C705438B9BA7C51BD6AB288D16DB.tmp' to '../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
-[2017.11.30-16.58.52:177][594]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhamilton/Documents/Unreal Projects/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-17.19.04:049][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.30-17.19.04:049][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.30-17.19.04:061][  0]LogInit: Computer: HS-MT330-6
+[2017.11.30-17.19.04:061][  0]LogInit: User: jhamilton
+[2017.11.30-17.19.04:061][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.30-17.19.04:061][  0]LogInit: High frequency timer resolution =3.410126 MHz
+[2017.11.30-17.19.04:061][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.30-17.19.04:061][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.30-17.19.04:061][  0]LogMemory: Process Physical Memory: 279.60 MB used, 279.60 MB peak
+[2017.11.30-17.19.04:061][  0]LogMemory: Process Virtual Memory: 277.27 MB used, 277.27 MB peak
+[2017.11.30-17.19.04:061][  0]LogMemory: Physical Memory: 6878.98 MB used,  9427.42 MB free, 16306.40 MB total
+[2017.11.30-17.19.04:061][  0]LogMemory: Virtual Memory: 656.17 MB used,  9427.42 MB free, 8388608.00 MB total
+[2017.11.30-17.19.04:209][  0]LogInit: Using OS detected language (en-US).
+[2017.11.30-17.19.04:209][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.30-17.19.04:212][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.30-17.19.04:855][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.30-17.19.04:882][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.30-17.19.04:882][  0]LogD3D11RHI:       8070/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.30-17.19.04:882][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.30-17.19.04:886][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.30-17.19.04:886][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.30-17.19.04:886][  0]LogWindows: EnumDisplayDevices:
+[2017.11.30-17.19.04:886][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.30-17.19.04:886][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.30-17.19.04:887][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.30-17.19.04:887][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.30-17.19.04:887][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.11.30-17.19.04:887][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.11.30-17.19.04:887][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.11.30-17.19.04:887][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.30-17.19.04:887][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.30-17.19.04:887][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.11.30-17.19.04:887][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.11.30-17.19.04:887][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.30-17.19.04:898][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.30-17.19.04:912][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.30-17.19.04:953][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Intermediate/Shaders/WorkingDirectory/8948/).
+[2017.11.30-17.19.04:954][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jhamilton/AppData/Local/Temp/UnrealShaderWorkingDir/D441E7D84860F11F507923963D0810B1/'.
+[2017.11.30-17.19.04:954][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.30-17.19.05:797][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.30-17.19.05:847][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.30-17.19.05:897][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.30-17.19.05:946][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.30-17.19.05:997][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.30-17.19.06:046][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.30-17.19.06:096][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.30-17.19.06:147][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.30-17.19.06:191][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.30-17.19.06:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.30-17.19.06:289][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.30-17.19.06:338][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.30-17.19.06:385][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.30-17.19.06:432][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.30-17.19.06:478][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.30-17.19.06:573][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.30-17.19.06:573][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.30-17.19.06:611][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.30-17.19.06:695][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.30-17.19.06:721][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.30-17.19.06:768][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.30-17.19.06:815][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.30-17.19.06:862][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.30-17.19.06:910][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.30-17.19.06:910][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.30-17.19.07:336][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.30-17.19.07:440][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/jhamilton/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.30-17.19.07:441][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jhamilton/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.30-17.19.07:441][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.30-17.19.07:441][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.30-17.19.07:441][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.30-17.19.07:441][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.30-17.19.07:457][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.30-17.19.07:468][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jhamilton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.30-17.19.07:478][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.30-17.19.07:478][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.30-17.19.07:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.30-17.19.07:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.30-17.19.07:721][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2017.11.30-17.19.07:878][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.30-17.19.07:882][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.30-17.19.08:252][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.30-17.19.08:290][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.30-17.19.08:290][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.30-17.19.08:290][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.30-17.19.08:290][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.30-17.19.08:290][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.30-17.19.08:614][  0]LogNetVersion: MMC_Off_Recreation , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 116792171)
+[2017.11.30-17.19.08:805][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.041982 seconds
+[2017.11.30-17.19.08:811][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.30-17.19.08:811][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.30-17.19.08:811][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.30-17.19.08:863][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.30-17.19.11:210][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.30-17.19.11:244][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.30-17.19.11:824][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.30-17.19.12:214][  0]SourceControl: Source control is disabled
+[2017.11.30-17.19.12:214][  0]SourceControl: Source control is disabled
+[2017.11.30-17.19.12:259][  0]SourceControl: Source control is disabled
+[2017.11.30-17.19.12:300][  0]SourceControl: Source control is disabled
+[2017.11.30-17.19.12:812][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.30-17.19.13:029][  0]LogOcInput: OculusInput pre-init called
+[2017.11.30-17.19.13:266][  0]LogEngine: Initializing Engine...
+[2017.11.30-17.19.13:267][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.30-17.19.13:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.30-17.19.13:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.30-17.19.13:615][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.30-17.19.13:626][  0]LogInit: XAudio2 using 'Speaker (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.19.13:641][  0]LogInit: FAudioDevice initialized.
+[2017.11.30-17.19.13:873][  0]LogDerivedDataCache: Saved boot cache 0.23s 93MB C:/Users/jhamilton/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.30-17.19.13:891][  0]LogInit: Texture streaming: Enabled
+[2017.11.30-17.19.13:986][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.30-17.19.14:190][  0]LogInit: Transaction tracking system initialized
+[2017.11.30-17.19.14:486][  0]BlueprintLog: New page: Editor Load
+[2017.11.30-17.19.15:307][  0]LocalizationService: Localization service is disabled
+[2017.11.30-17.19.15:945][  0]LogConsoleResponse: Display: 
+[2017.11.30-17.19.16:106][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.30-17.19.16:106][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.30-17.19.16:106][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.30-17.19.16:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/' took 0.01s
+[2017.11.30-17.19.17:056][  0]SourceControl: Source control is disabled
+[2017.11.30-17.19.17:056][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.30-17.19.17:056][  0]LightingResults: New page: Lighting Build
+[2017.11.30-17.19.17:095][  0]MapCheck: New page: Map Check
+[2017.11.30-17.19.17:095][  0]LightingResults: New page: Lighting Build
+[2017.11.30-17.19.17:382][  0]LogAIModule: Creating AISystem for world Office
+[2017.11.30-17.19.17:389][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.30-17.19.17:400][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.30-17.19.17:453][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.928ms to complete.
+[2017.11.30-17.19.17:453][  0]LogFileHelpers: Loading map 'Office' took 0.397
+[2017.11.30-17.19.17:597][  0]LogCollectionManager: Loaded 0 collections in 0.001538 seconds
+[2017.11.30-17.19.17:676][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Collections/' took 0.01s
+[2017.11.30-17.19.17:676][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Developers/jhamilton/Collections/' took 0.01s
+[2017.11.30-17.19.17:676][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Collections/' took 0.01s
+[2017.11.30-17.19.17:676][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.30-17.19.17:684][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2386 classes and 500 folders.
+[2017.11.30-17.19.17:744][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.30-17.19.17:779][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.30-17.19.17:820][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.30-17.19.17:901][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.30-17.19.17:902][  0]LogLoad: (Engine Initialization) Total time: 15.24 seconds
+[2017.11.30-17.19.17:902][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.30-17.19.17:902][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.30-17.19.17:902][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.30-17.19.17:928][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.30-17.19.17:929][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.30-17.19.17:931][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.30-17.19.17:935][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.30-17.19.18:062][  0]LogRenderer: Reallocating scene render targets to support 804x360 Format 26 NumSamples 1 (Frame:1).
+[2017.11.30-17.19.18:116][  1]LogAssetRegistry: Asset discovery search completed in 10.4153 seconds
+[2017.11.30-17.19.18:118][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.30-17.19.18:118][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2017.11.30-17.19.33:859][839]LogRenderer: Reallocating scene render targets to support 1616x808 Format 26 NumSamples 1 (Frame:4).
+[2017.11.30-17.19.52:555][657]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-17.19.52:569][657]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.30-17.19.52:569][657]LightingResults: New page: Lighting Build
+[2017.11.30-17.19.52:570][657]LoadErrors: New page: Loading map: Office.umap
+[2017.11.30-17.19.52:570][657]MapCheck: New page: Map Check
+[2017.11.30-17.19.52:570][657]LightingResults: New page: Lighting Build
+[2017.11.30-17.19.52:619][657]LogAIModule: Creating AISystem for world Office
+[2017.11.30-17.19.52:624][657]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.30-17.19.52:660][657]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.30-17.19.52:711][657]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.153ms to complete.
+[2017.11.30-17.19.52:711][657]LogFileHelpers: Loading map 'Office' took 0.143
+[2017.11.30-17.20.42:423][606]Cmd: EDIT COPY
+[2017.11.30-17.20.43:367][718]Cmd: EDIT PASTE
+[2017.11.30-17.21.33:808][705]Cmd: TRANSACTION UNDO
+[2017.11.30-17.21.33:808][705]LogEditorTransaction: Undo Edit X
+[2017.11.30-17.21.33:824][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush45_26.BrushComponent0) Component already registered.
+[2017.11.30-17.21.33:831][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush29.BrushComponent0) Component already registered.
+[2017.11.30-17.21.33:835][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush82.BrushComponent0) Component already registered.
+[2017.11.30-17.21.34:022][705]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-17.29.52:744][ 42]LogSavePackage: Save=329.60ms
+[2017.11.30-17.29.52:744][ 42]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_Auto14123E2024A98ADD8F191FC99D58C8D4F.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Autosaves/Game/Maps/Office_Auto1.umap'
+[2017.11.30-17.29.52:745][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Autosaves/Game/Maps/Office_Auto1.umap
+[2017.11.30-17.29.52:747][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Office' took 0.360
+[2017.11.30-17.29.52:747][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.360
+[2017.11.30-17.38.13:280][879]Cmd: EDIT CUT
+[2017.11.30-17.38.13:286][879]LogEditorActor: Deleted Actor: Brush
+[2017.11.30-17.38.13:430][879]LogEditorActor: Deleted 1 Actors (0.147 secs)
+[2017.11.30-17.39.20:121][425]Cmd: EDIT COPY
+[2017.11.30-17.39.21:158][548]Cmd: EDIT PASTE
+[2017.11.30-17.40.05:014][882]LogEditorViewport: Clicking Background
+[2017.11.30-17.41.01:912][254]LogEditorViewport: Clicking on Actor (LMB): Brush (Floor)
+[2017.11.30-17.41.03:052][387]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush110)
+[2017.11.30-17.41.17:964][ 93]LogEditorViewport: Clicking Background
+[2017.11.30-17.41.21:007][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-17.41.21:377][425]LogSavePackage: Save=341.38ms
+[2017.11.30-17.41.21:378][425]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office84AAD7B847E12A37893A378131376A1D.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-17.41.21:382][425]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-17.41.21:419][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-17.41.21:465][425]LogSavePackage: Save=31.62ms
+[2017.11.30-17.41.21:465][425]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData976258E147AA978AFB97BF9AF98EDDDB.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-17.41.21:467][425]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-17.44.21:651][941]Cmd: EDIT COPY
+[2017.11.30-17.44.22:978][ 99]Cmd: EDIT PASTE
+[2017.11.30-17.47.01:019][316]LogEditorViewport: Clicking Background
+[2017.11.30-17.47.03:118][566]Cmd: TRANSACTION UNDO
+[2017.11.30-17.47.03:118][566]LogEditorTransaction: Undo Clicking Background
+[2017.11.30-17.47.04:620][688]Cmd: TRANSACTION UNDO
+[2017.11.30-17.47.04:620][688]LogEditorTransaction: Undo Move Actors
+[2017.11.30-17.47.04:658][688]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2017.11.30-17.47.04:659][688]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush102.BrushComponent0) Component already registered.
+[2017.11.30-17.47.06:353][829]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush110)
+[2017.11.30-17.47.09:879][194]LogEditorViewport: Clicking Background
+[2017.11.30-17.47.42:747][941]LogEditorViewport: Clicking Background
+[2017.11.30-17.47.45:337][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-17.47.45:712][231]LogSavePackage: Save=341.51ms
+[2017.11.30-17.47.45:712][231]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/OfficeC844538F4975C4BB2AF9889D6B18B028.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-17.47.45:716][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-17.47.45:752][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-17.47.45:790][231]LogSavePackage: Save=23.10ms
+[2017.11.30-17.47.45:790][231]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData069088CD4912DFE0BC890081691892D1.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-17.47.45:792][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-17.49.01:815][168]Cmd: EDIT COPY
+[2017.11.30-17.49.02:613][263]Cmd: EDIT PASTE
+[2017.11.30-17.49.09:780][ 51]Cmd: TRANSACTION UNDO
+[2017.11.30-17.49.09:780][ 51]LogEditorTransaction: Undo Move Actors
+[2017.11.30-17.49.09:806][ 51]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
+[2017.11.30-17.49.09:807][ 51]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush103.BrushComponent0) Component already registered.
+[2017.11.30-17.49.09:808][ 51]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush72.BrushComponent0) Component already registered.
+[2017.11.30-17.49.09:808][ 51]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2017.11.30-17.49.09:809][ 51]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush83.BrushComponent0) Component already registered.
+[2017.11.30-17.50.08:013][524]Cmd: EDIT CUT
+[2017.11.30-17.50.08:019][524]LogEditorActor: Deleted Actor: Brush
+[2017.11.30-17.50.08:161][524]LogEditorActor: Deleted 1 Actors (0.145 secs)
+[2017.11.30-17.50.20:226][955]Cmd: EDIT COPY
+[2017.11.30-17.50.21:956][162]Cmd: EDIT PASTE
+[2017.11.30-17.50.47:237][ 71]LogEditorViewport: Clicking Background
+[2017.11.30-17.50.51:702][605]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush112)
+[2017.11.30-17.51.16:807][109]LogEditorViewport: Clicking Background
+[2017.11.30-17.51.21:397][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-17.51.21:770][636]LogSavePackage: Save=348.99ms
+[2017.11.30-17.51.21:770][636]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office8FAB5ABA419DE0E2368080AAF539483A.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-17.51.21:773][636]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-17.51.21:812][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-17.51.21:847][636]LogSavePackage: Save=24.24ms
+[2017.11.30-17.51.21:847][636]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData447E35BD4C3D15261F50188B00D3243F.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-17.51.21:849][636]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-17.51.47:741][440]LogEditorViewport: Clicking Background
+[2017.11.30-17.51.55:552][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-17.51.55:905][357]LogSavePackage: Save=329.27ms
+[2017.11.30-17.51.55:905][357]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office0A5DEF40489CC6288911748A97595418.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-17.51.55:909][357]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-17.51.55:938][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-17.51.55:973][357]LogSavePackage: Save=23.88ms
+[2017.11.30-17.51.55:973][357]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData0A4E4BC14ACF482CDC7AE495FF7C70F5.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-17.51.55:974][357]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-17.52.00:236][793]MapCheck: New page: Map Check
+[2017.11.30-17.52.00:260][793]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.30-17.52.00:260][793]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.30-17.52.01:399][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.11.30-17.52.01:408][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy carpet_Mat, compiling. 
+[2017.11.30-17.52.01:415][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy drywall_Mat, compiling. 
+[2017.11.30-17.52.01:421][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrayWall_Mat, compiling. 
+[2017.11.30-17.52.01:428][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
+[2017.11.30-17.52.01:436][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy woodPanelColor_Mat, compiling. 
+[2017.11.30-17.52.01:443][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
+[2017.11.30-17.52.01:450][793]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.11.30-17.52.02:105][793]TextureStreamingBuild: Display: Compiling optional shaders took 0.714 seconds.
+[2017.11.30-17.52.02:113][793]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2017.11.30-17.52.02:126][793]TextureStreamingBuild: Display: Build Texture Streaming took 0.013 seconds.
+[2017.11.30-17.52.02:134][793]LightingResults: New page: Lighting Build - Nov 30, 2017, 7:52:02 AM
+[2017.11.30-17.52.02:182][793]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.30-17.52.02:200][793]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.30-17.52.02:208][793]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.30-17.52.02:718][793]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.30-17.52.02:718][793]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8948
+[2017.11.30-17.52.06:642][793]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.30-17.52.06:643][793]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.30-17.52.06:643][793]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.30-17.52.06:643][793]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.30-17.52.06:643][793]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.30-17.52.06:643][793]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.30-17.52.06:757][793]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.30-17.52.06:757][793]MapCheck: New page: Office - Nov 30, 2017, 7:52:06 AM
+[2017.11.30-17.52.06:808][793]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.925ms to complete.
+[2017.11.30-17.52.06:829][793]LogEditorBuildUtils: Build time 0:06
+[2017.11.30-17.52.08:733][870]Job is a success!
+[2017.11.30-17.52.09:076][871]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.30-17.52.09:076][871]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.30-17.52.09:076][871]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.30-17.52.09:103][871]Lightmass on HS-MT330-6: 1.42 sec total, 126 ms importing, 25 ms setup, 264 ms photons, 985 ms processing, 0 ms extra exporting [668/668 mappings]. Threads: 6.71 sec total, 971 ms processing.
+[2017.11.30-17.52.09:142][871]LogStaticLightingSystem: Illumination: 6.97 sec (191 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.30-17.52.09:142][871]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 2 textures
+[2017.11.30-17.52.09:142][871]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.30-17.52.09:644][871]DumpUnbuiltLightIteractions
+[2017.11.30-17.52.09:644][871]Lights with unbuilt interactions: 0
+[2017.11.30-17.52.09:644][871]
+[2017.11.30-17.52.09:644][871]Primitives with unbuilt interactions: 0
+[2017.11.30-17.52.09:681][872]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.30-17.52.09:681][872]MapCheck: New page: Office - Nov 30, 2017, 7:52:09 AM
+[2017.11.30-17.52.09:734][872]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.067ms to complete.
+[2017.11.30-17.53.40:129][567]LogEditorViewport: Clicking Background
+[2017.11.30-17.54.07:955][898]Cmd: EDIT COPY
+[2017.11.30-17.54.08:551][969]Cmd: EDIT PASTE
+[2017.11.30-17.54.22:588][538]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush113)
+[2017.11.30-17.54.23:550][649]LogEditorViewport: Clicking Background
+[2017.11.30-17.55.57:315][168]LogEditorViewport: Clicking Background
+[2017.11.30-17.56.09:693][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-17.56.10:076][609]LogSavePackage: Save=351.84ms
+[2017.11.30-17.56.10:076][609]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/OfficeD2724A844A723E827BD1E68F5AB9D2F6.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-17.56.10:080][609]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-17.56.10:120][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-17.56.10:184][609]LogSavePackage: Save=49.50ms
+[2017.11.30-17.56.10:184][609]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataFE5E82F6498F19A3ECFB0FBBD6720818.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-17.56.10:188][609]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-17.56.48:664][968]LogEditorViewport: Clicking Background
+[2017.11.30-17.56.57:809][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-17.56.58:179][ 35]LogSavePackage: Save=347.00ms
+[2017.11.30-17.56.58:179][ 35]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/OfficeD69A433A4FEA699167B079A6F1E3086A.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-17.56.58:183][ 35]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-17.56.58:217][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-17.56.58:278][ 35]LogSavePackage: Save=51.11ms
+[2017.11.30-17.56.58:278][ 35]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataCDF65C5E4DFD59C5D8F2CE86EC9A7E4B.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-17.56.58:279][ 35]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-17.57.10:419][459]LogEditorViewport: Clicking Background
+[2017.11.30-17.57.19:028][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-17.57.19:381][454]LogSavePackage: Save=330.11ms
+[2017.11.30-17.57.19:381][454]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office0D14CE4A4260777416EC50809472AD4E.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-17.57.19:384][454]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-17.57.19:414][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-17.57.19:477][454]LogSavePackage: Save=51.45ms
+[2017.11.30-17.57.19:477][454]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataE3398D394455FD926B66159F91DA2D2D.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-17.57.19:478][454]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.00.02:315][917]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.30-18.00.24:432][404]Cmd: TRANSACTION UNDO
+[2017.11.30-18.00.24:432][404]LogEditorTransaction: Undo Edit Y
+[2017.11.30-18.00.24:456][404]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2017.11.30-18.00.24:457][404]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2017.11.30-18.00.24:458][404]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2017.11.30-18.00.24:458][404]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush100_1.BrushComponent0) Component already registered.
+[2017.11.30-18.00.24:460][404]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.11.30-18.00.24:461][404]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Office.Office:PersistentLevel.BoxBrush77.BrushComponent0) Component already registered.
+[2017.11.30-18.00.51:129][292]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush113)
+[2017.11.30-18.01.19:920][616]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2017.11.30-18.01.20:524][685]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush)
+[2017.11.30-18.01.25:857][162]Cmd: EDIT CUT
+[2017.11.30-18.01.25:864][162]LogEditorActor: Deleted Actor: Brush
+[2017.11.30-18.01.26:007][162]LogEditorActor: Deleted 1 Actors (0.145 secs)
+[2017.11.30-18.01.27:892][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.01.28:268][372]LogSavePackage: Save=349.72ms
+[2017.11.30-18.01.28:268][372]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office3BF729B043B76AF985CAB2A49B9C7853.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.01.28:273][372]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.01.28:307][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.01.28:378][372]LogSavePackage: Save=49.86ms
+[2017.11.30-18.01.28:378][372]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData92C2F8EC4095C52E7537B4A9DF27CEBE.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.01.28:380][372]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.01.32:892][913]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush110)
+[2017.11.30-18.01.38:362][565]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush113)
+[2017.11.30-18.01.39:730][725]LogEditorViewport: Clicking Background
+[2017.11.30-18.01.40:692][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.01.41:048][819]LogSavePackage: Save=333.03ms
+[2017.11.30-18.01.41:048][819]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office959D93514EBA3599B964C19B1BC646B9.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.01.41:051][819]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.01.41:080][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.01.41:142][819]LogSavePackage: Save=51.00ms
+[2017.11.30-18.01.41:142][819]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData17A26D004A3895F088AF3FA34655FA23.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.01.41:144][819]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.01.43:033][ 41]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush110)
+[2017.11.30-18.01.49:279][780]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush113)
+[2017.11.30-18.01.50:952][976]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush110)
+[2017.11.30-18.01.51:934][ 89]LogEditorViewport: Clicking Background
+[2017.11.30-18.01.52:969][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.01.53:317][182]LogSavePackage: Save=329.28ms
+[2017.11.30-18.01.53:317][182]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office2668FE1E4240B92DEF48B9808C9A6F9E.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.01.53:320][182]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.01.53:348][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.01.53:414][182]LogSavePackage: Save=54.90ms
+[2017.11.30-18.01.53:414][182]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData928E15CC4EA6A3A9D0E3C98B7B6EB4F8.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.01.53:415][182]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.02.01:353][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.02.01:701][103]LogSavePackage: Save=329.03ms
+[2017.11.30-18.02.01:701][103]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office95435BB242CB6E48176D52B4DD32A8D1.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.02.01:703][103]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.02.01:732][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.02.01:792][103]LogSavePackage: Save=49.22ms
+[2017.11.30-18.02.01:792][103]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData9BCF87AB4BAAFE291E928AB88FE9379C.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.02.01:793][103]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.04.01:696][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.04.02:052][443]LogSavePackage: Save=335.19ms
+[2017.11.30-18.04.02:052][443]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office1C4D52F4454E3FD0CA92479A8FAF93DA.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.04.02:064][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.04.02:094][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.04.02:161][443]LogSavePackage: Save=56.22ms
+[2017.11.30-18.04.02:162][443]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataED11ECD24EC996F86B0F22BDEA6CCAB4.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.04.02:162][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.05.01:422][220]LogEditorViewport: Clicking Background
+[2017.11.30-18.05.03:254][439]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush113)
+[2017.11.30-18.05.17:096][ 24]LogEditorViewport: Clicking Background
+[2017.11.30-18.05.19:300][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.05.19:660][272]LogSavePackage: Save=340.53ms
+[2017.11.30-18.05.19:660][272]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/OfficeEE252F2244A20E706AB1B3A1D1968D30.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.05.19:666][272]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.05.19:699][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.05.19:765][272]LogSavePackage: Save=55.22ms
+[2017.11.30-18.05.19:765][272]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData90F078974FD5B53FDDCC809AE7F3385B.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.05.19:767][272]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.06.17:805][306]Cmd: EDIT COPY
+[2017.11.30-18.06.18:537][368]Cmd: EDIT PASTE
+[2017.11.30-18.06.43:189][188]LogEditorViewport: Clicking Background
+[2017.11.30-18.06.47:015][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.06.47:390][630]LogSavePackage: Save=344.22ms
+[2017.11.30-18.06.47:390][630]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/OfficeA1D0C8DF4C22C16537F46EB84BE160CE.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.06.47:394][630]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.06.47:426][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.06.47:497][630]LogSavePackage: Save=49.65ms
+[2017.11.30-18.06.47:497][630]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData4118759B40B710400C7CD79E9C2459D8.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.06.47:499][630]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.06.49:845][911]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush113)
+[2017.11.30-18.06.59:110][ 19]LogEditorViewport: Clicking Background
+[2017.11.30-18.07.00:532][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.07.00:890][171]LogSavePackage: Save=336.70ms
+[2017.11.30-18.07.00:890][171]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office5EE98FB74BA2CA1C8AE04394604CA8CA.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.07.00:893][171]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.07.00:921][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.07.00:984][171]LogSavePackage: Save=52.26ms
+[2017.11.30-18.07.00:984][171]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData70D03949483A408682564887BDE0E008.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.07.00:985][171]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.08.08:307][497]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2017.11.30-18.08.36:189][ 67]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2017.11.30-18.08.58:195][ 65]LogEditorViewport: Clicking Background
+[2017.11.30-18.08.59:202][184]LogEditorViewport: Clicking Background
+[2017.11.30-18.09.02:785][605]LogEditorViewport: Clicking Background
+[2017.11.30-18.09.26:893][488]Cmd: EDIT COPY
+[2017.11.30-18.09.27:971][616]Cmd: EDIT PASTE
+[2017.11.30-18.10.18:192][ 99]LogEditorViewport: Clicking Background
+[2017.11.30-18.10.20:193][338]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush115)
+[2017.11.30-18.10.20:875][416]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush115)
+[2017.11.30-18.10.29:375][141]LogEditorViewport: Clicking Background
+[2017.11.30-18.10.30:301][251]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush115)
+[2017.11.30-18.10.39:800][351]LogEditorViewport: Clicking Background
+[2017.11.30-18.10.43:171][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.10.43:546][737]LogSavePackage: Save=354.44ms
+[2017.11.30-18.10.43:546][737]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office34B1281442CC209A0181C0A5E5FDF145.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.10.43:548][737]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.10.43:583][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.10.43:650][737]LogSavePackage: Save=55.86ms
+[2017.11.30-18.10.43:650][737]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataCBDE414D4736904F69CED8B53D6FD4E6.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.10.43:651][737]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.11.16:506][511]LogEditorViewport: Clicking Background
+[2017.11.30-18.11.18:825][788]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush115)
+[2017.11.30-18.11.20:778][ 18]Cmd: EDIT COPY
+[2017.11.30-18.11.21:740][133]Cmd: EDIT PASTE
+[2017.11.30-18.11.44:924][707]LogEditorViewport: Clicking Background
+[2017.11.30-18.11.49:963][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.11.50:353][275]LogSavePackage: Save=357.99ms
+[2017.11.30-18.11.50:353][275]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office596A0AD447BFF7411D22739579FEC6B8.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.11.50:356][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.11.50:390][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.11.50:460][275]LogSavePackage: Save=49.42ms
+[2017.11.30-18.11.50:460][275]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataBAF342B2402F73E3F7417FAE55C4AE79.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.11.50:463][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.12.38:199][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.12.38:560][953]LogSavePackage: Save=337.04ms
+[2017.11.30-18.12.38:560][953]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office688557894E5405705E59CFB947EB2911.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.12.38:568][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.12.38:597][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.12.38:661][953]LogSavePackage: Save=53.15ms
+[2017.11.30-18.12.38:661][953]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataE9319F394FD8ECA3251934839040D263.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.12.38:663][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.12.39:092][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.12.39:450][985]LogSavePackage: Save=339.51ms
+[2017.11.30-18.12.39:450][985]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office10F509854E4489C29E9818AD8179A253.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.12.39:453][985]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.12.39:482][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.12.39:542][985]LogSavePackage: Save=49.66ms
+[2017.11.30-18.12.39:542][985]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData97435ECE47167B3B92FF1FB3AC7B337F.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.12.39:544][985]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.12.40:210][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.12.40:570][ 36]LogSavePackage: Save=340.32ms
+[2017.11.30-18.12.40:570][ 36]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office9922B3B943CD7E566F1F8BA51A17E46C.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.12.40:573][ 36]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.12.40:602][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.12.40:662][ 36]LogSavePackage: Save=49.17ms
+[2017.11.30-18.12.40:662][ 36]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData7A29EBD1427EE008F1F0EAA44DB0E49F.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.12.40:664][ 36]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.12.41:139][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.12.41:494][ 73]LogSavePackage: Save=336.52ms
+[2017.11.30-18.12.41:494][ 73]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office50D905FD4910873C5A2061BA3C57504E.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.12.41:497][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.12.41:526][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.12.41:591][ 73]LogSavePackage: Save=54.73ms
+[2017.11.30-18.12.41:591][ 73]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltData58D4CD1147E2EAD0937FC4BE66A68E94.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.12.41:593][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.12.44:851][399]MapCheck: New page: Map Check
+[2017.11.30-18.12.44:874][399]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.30-18.12.44:874][399]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.30-18.12.46:038][399]LogEditorServer: Cleared 7 NULL BSP materials after rebuild.
+[2017.11.30-18.12.46:065][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.11.30-18.12.46:073][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy carpet_Mat, compiling. 
+[2017.11.30-18.12.46:081][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy drywall_Mat, compiling. 
+[2017.11.30-18.12.46:088][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GrayWall_Mat, compiling. 
+[2017.11.30-18.12.46:096][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
+[2017.11.30-18.12.46:104][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy woodPanelColor_Mat, compiling. 
+[2017.11.30-18.12.46:112][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
+[2017.11.30-18.12.46:119][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.11.30-18.12.46:127][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Steel, compiling. 
+[2017.11.30-18.12.46:841][399]TextureStreamingBuild: Display: Compiling optional shaders took 0.782 seconds.
+[2017.11.30-18.12.46:848][399]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2017.11.30-18.12.46:860][399]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
+[2017.11.30-18.12.46:869][399]LightingResults: New page: Lighting Build - Nov 30, 2017, 8:12:46 AM
+[2017.11.30-18.12.46:897][399]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.30-18.12.46:937][399]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.30-18.12.46:937][399]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.30-18.12.46:938][399]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.30-18.12.46:938][399]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8948
+[2017.11.30-18.12.51:446][399]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.30-18.12.51:447][399]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.30-18.12.51:447][399]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.30-18.12.51:447][399]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.30-18.12.51:447][399]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.30-18.12.51:447][399]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.30-18.12.51:542][399]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.30-18.12.51:543][399]MapCheck: New page: Office - Nov 30, 2017, 8:12:51 AM
+[2017.11.30-18.12.51:597][399]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.13ms to complete.
+[2017.11.30-18.12.51:617][399]LogEditorBuildUtils: Build time 0:06
+[2017.11.30-18.12.53:526][483]Job is a success!
+[2017.11.30-18.12.53:845][484]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.30-18.12.53:845][484]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.30-18.12.53:845][484]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.30-18.12.53:863][484]Lightmass on HS-MT330-6: 1.37 sec total, 147 ms importing, 24 ms setup, 260 ms photons, 907 ms processing, 0 ms extra exporting [685/685 mappings]. Threads: 6.09 sec total, 814 ms processing.
+[2017.11.30-18.12.53:900][484]LogStaticLightingSystem: Illumination: 6.99 sec (176 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.30-18.12.53:900][484]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 2 textures
+[2017.11.30-18.12.53:900][484]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.30-18.12.54:448][484]DumpUnbuiltLightIteractions
+[2017.11.30-18.12.54:448][484]Lights with unbuilt interactions: 0
+[2017.11.30-18.12.54:448][484]
+[2017.11.30-18.12.54:448][484]Primitives with unbuilt interactions: 0
+[2017.11.30-18.12.54:490][485]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.30-18.12.54:490][485]MapCheck: New page: Office - Nov 30, 2017, 8:12:54 AM
+[2017.11.30-18.12.54:544][485]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.827ms to complete.
+[2017.11.30-18.13.46:205][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-18.13.46:508][508]LogSavePackage: Save=283.46ms
+[2017.11.30-18.13.46:508][508]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/OfficeB5669E4D47258609F16A09991C4965E8.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap'
+[2017.11.30-18.13.46:537][508]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office.umap
+[2017.11.30-18.13.46:565][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Office_BuiltData" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset" SILENT=true
+[2017.11.30-18.13.46:619][508]LogSavePackage: Save=42.79ms
+[2017.11.30-18.13.46:619][508]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Office_BuiltDataE9AE5A1C43D6B60492D3E0980E44CCEE.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset'
+[2017.11.30-18.13.46:622][508]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Maps/Office_BuiltData.uasset
+[2017.11.30-18.13.48:094][642]Cmd: QUIT_EDITOR
+[2017.11.30-18.13.48:118][642]LogExit: Preparing to exit.
+[2017.11.30-18.13.48:369][642]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/' was aborted.
+[2017.11.30-18.13.48:391][642]LogExit: Editor shut down
+[2017.11.30-18.13.48:396][642]LogExit: Transaction tracking system shut down
+[2017.11.30-18.13.48:506][642]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.30-18.13.48:506][642]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/' was aborted.
+[2017.11.30-18.13.48:506][642]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.30-18.13.48:506][642]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.30-18.13.48:506][642]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.30-18.13.48:550][642]LogExit: Object subsystem successfully closed.
+[2017.11.30-18.13.48:566][642]LogD3D11RHI: Shutdown
+[2017.11.30-18.13.48:566][642]LogD3D11RHI: CleanupD3DDevice
+[2017.11.30-18.13.48:567][642]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.30-18.13.48:581][642]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.11.30-18.13.48:581][642]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.30-18.13.48:581][642]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.30-18.13.48:581][642]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.30-18.13.48:581][642]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.30-18.13.48:582][642]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Collections/' was aborted.
+[2017.11.30-18.13.48:582][642]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Content/Developers/jhamilton/Collections/' was aborted.
+[2017.11.30-18.13.48:582][642]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Documents/Public Programs/MMC_Off_Recreation/Saved/Collections/' was aborted.
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.30-18.13.48:582][642]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.30-18.13.48:583][642]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.30-18.13.48:652][642]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.30-18.13.48:653][642]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.30-18.13.48:653][642]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.30-18.13.48:653][642]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.30-18.13.48:653][642]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.30-18.13.48:653][642]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.30-18.13.48:653][642]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.30-18.13.48:693][642]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.30-18.13.48:727][642]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.30-18.13.48:728][642]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.30-18.13.48:729][642]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.30-18.13.48:829][642]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.30-18.13.49:215][642]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.30-18.13.49:215][642]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.30-18.13.49:215][642]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.30-18.13.49:215][642]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.30-18.13.49:215][642]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.30-18.13.49:215][642]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.30-18.13.49:216][642]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.30-18.13.49:217][642]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.30-18.13.49:218][642]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.30-18.13.49:218][642]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.30-18.13.49:218][642]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.30-18.13.49:218][642]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.11.30-18.13.49:220][642]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.30-18.13.49:221][642]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.30-18.13.49:235][642]LogDerivedDataCache: Shutdown
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.30-18.13.49:235][642]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.30-18.13.49:236][642]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.30-18.13.49:236][642]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.30-18.13.49:236][642]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.30-18.13.49:236][642]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA82B34E-43F5-9B94-1617-9AB810D2A5CE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=1e3ca5bf4990b327cbbb02a7f1537df9%7C3576225e7ed84477a7938b91687b9e60%7Cb890ac41-6b30-42de-865d-c136600c8e4f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.30-18.13.49:247][642]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.30-18.13.49:248][642]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.30-18.13.49:248][642]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.30-18.13.49:248][642]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.30-18.13.49:248][642]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.30-18.13.49:249][642]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.30-18.13.49:249][642]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.30-18.13.49:249][642]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.30-18.13.49:250][642]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.30-18.13.49:252][642]LogExit: Exiting.
+[2017.11.30-18.13.49:268][642]Log file closed, 11/30/17 13:13:49
