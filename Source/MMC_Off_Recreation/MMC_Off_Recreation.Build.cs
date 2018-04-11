@@ -12,6 +12,8 @@ public class MMC_Off_Recreation : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		PublicIncludePaths.Add("C:/Users/Public/Documents/Public Projects/MMC_Off_Recreation/Source/MMC_Off_Recreation/VRBase");
+
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		

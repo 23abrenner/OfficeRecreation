@@ -9,6 +9,6 @@ public class MMC_Off_RecreationTarget : TargetRules
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "MMC_Off_Recreation", "VRBase" } );
+		ExtraModuleNames.AddRange( new string[] { "MMC_Off_Recreation" } );
 	}
 }

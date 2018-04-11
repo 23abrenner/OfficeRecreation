@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MMC_Off_Recreation.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6F4B319D-76C7-4E61-B2E5-4ED4F322355D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_RecreationEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B3E06B18-26D7-4E3C-BB59-312147755C71}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini.mine">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini.r2">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini.r3">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation">
+      <UniqueIdentifier>{FF8560AA-F612-4D56-8EE5-B33E5BD918A9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\MMC_Off_Recreation.Build.cs">
+      <Filter>Source\MMC_Off_Recreation</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\MMC_Off_Recreation.cpp">
+      <Filter>Source\MMC_Off_Recreation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\MMC_Off_Recreation.h">
+      <Filter>Source\MMC_Off_Recreation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\Target.cpp">
+      <Filter>Source\MMC_Off_Recreation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\Target.h">
+      <Filter>Source\MMC_Off_Recreation</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase">
+      <UniqueIdentifier>{75312F15-7CF7-4954-AAEB-3E50C2655A7A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.Build.cs">
+      <Filter>Source\MMC_Off_Recreation\VRBase</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\ABaseCharacter">
+      <UniqueIdentifier>{F8E311DE-8A0A-40DF-8C5B-8BB778458C1E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseCharacter\ABaseCharacter.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseCharacter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseCharacter\ABaseCharacter.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseCharacter</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\ABaseEntity">
+      <UniqueIdentifier>{DB8474B3-133F-402E-B282-1D16DDB67F0D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseEntity\ABaseEntity.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseEntity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseEntity\ABaseEntity.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseEntity</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\ABaseMoving">
+      <UniqueIdentifier>{12B5E481-F66A-484B-95E2-891BEA6389B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseMoving\ABaseMoving.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseMoving</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseMoving\ABaseMoving.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseMoving</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\ABasePawn">
+      <UniqueIdentifier>{FDCA3A41-8422-40FC-9BA6-51E1DADF3BE3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABasePawn\ABasePawn.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABasePawn</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\ABasePawn\ABasePawn.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABasePawn</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\AGameRules">
+      <UniqueIdentifier>{426A1D68-0DC6-4375-A0B3-DD78852C72E4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\AGameRules\AGameRules.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\AGameRules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\AGameRules\AGameRules.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\AGameRules</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget">
+      <UniqueIdentifier>{103ED003-762F-4C56-A4D1-2F096CD08DEF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget\AHMDTeleportTarget.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget\AHMDTeleportTarget.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\FMovingVector">
+      <UniqueIdentifier>{2F4E708E-6757-4D34-9DDC-7F15BF39F7F4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\FMovingVector\FMovingVector.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\FMovingVector</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\FMovingVector\FMovingVector.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\FMovingVector</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\IBaseEntity">
+      <UniqueIdentifier>{92F7CEB7-FFC9-418F-88A5-7D4272B5F2A5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\CTakeDamageInfo.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\EntityEventInput.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\EntityEventInput.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\IBaseEntity.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\IBaseEntity.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\IBaseEntity_flags.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
+    </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\System">
+      <UniqueIdentifier>{C680D7D8-DF30-406F-A6D8-7425E449CAFE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\EHandle.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\System\Globals.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\Globals.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\System\Input.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\Input.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\System\NLogger.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\NLogger.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\predefs.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\System\static_initialize.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\static_initialize.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
