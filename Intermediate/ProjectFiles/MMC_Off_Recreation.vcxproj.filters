@@ -189,4 +189,19 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\LineTools">
+      <UniqueIdentifier>{2b7ecd4d-d5f5-4649-adfe-030b4ee601ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\linetools.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\linetools.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
