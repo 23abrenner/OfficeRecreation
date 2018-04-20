@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\MMC_Off_Recreation.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6F4B319D-76C7-4E61-B2E5-4ED4F322355D}</UniqueIdentifier>
+      <UniqueIdentifier>{D96C35BB-D7AD-4BB0-A94B-7A3160564736}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MMC_Off_Recreation.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B3E06B18-26D7-4E3C-BB59-312147755C71}</UniqueIdentifier>
+      <UniqueIdentifier>{EE523820-A619-45E4-BCD5-4F60D712CD93}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -21,15 +21,6 @@
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini.mine">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini.r2">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini.r3">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultGame.ini">
@@ -42,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MMC_Off_Recreation">
-      <UniqueIdentifier>{FF8560AA-F612-4D56-8EE5-B33E5BD918A9}</UniqueIdentifier>
+      <UniqueIdentifier>{175D0577-8B92-432A-B8DF-2A1620B058D8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MMC_Off_Recreation\MMC_Off_Recreation.Build.cs">
       <Filter>Source\MMC_Off_Recreation</Filter>
@@ -53,14 +44,8 @@
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\MMC_Off_Recreation.h">
       <Filter>Source\MMC_Off_Recreation</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\MMC_Off_Recreation\Target.cpp">
-      <Filter>Source\MMC_Off_Recreation</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MMC_Off_Recreation\Target.h">
-      <Filter>Source\MMC_Off_Recreation</Filter>
-    </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase">
-      <UniqueIdentifier>{75312F15-7CF7-4954-AAEB-3E50C2655A7A}</UniqueIdentifier>
+      <UniqueIdentifier>{6DE67B59-C98C-45C6-8721-C3A987993490}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.Build.cs">
       <Filter>Source\MMC_Off_Recreation\VRBase</Filter>
@@ -71,8 +56,314 @@
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.h">
       <Filter>Source\MMC_Off_Recreation\VRBase</Filter>
     </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn">
+      <UniqueIdentifier>{C8A863FC-19D2-497A-B064-230886BB45CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\entries">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\format">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\wc.db">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\wc.db-journal">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine">
+      <UniqueIdentifier>{26635261-39F7-4669-9E97-079E2D26AC58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\00">
+      <UniqueIdentifier>{D82CF981-1F3D-4153-BA2A-26540B0B77EA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\00\00aaeb0b5187a45e09a220f2354752f9ed6b7faf.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\00</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\03">
+      <UniqueIdentifier>{9A1193ED-579D-4464-8C87-2C6F2E45363D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\03\0325c5a01a58757779feb548d52dc0bd29cc3771.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\03</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\03\03c22ad3b6d3d5e09fe509d6dfa634e4910393b0.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\03</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\05">
+      <UniqueIdentifier>{DDFFC8D1-DA82-46DB-AB7D-1EEF19A3984D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\05\05e718eb69e61e02a6b865e3bf2034179b621d66.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\05</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\13">
+      <UniqueIdentifier>{216884FD-0393-4662-97F6-9D4E117D325E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\13\137eb0aca4e9d2b0ec6635b77014ccea5949958b.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\13</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\17">
+      <UniqueIdentifier>{6F70F04E-D0A9-4C25-A7F3-0860A5E9E837}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\17\17f4b3d5b0d5c3b59a45f520cf461a726231e5f3.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\17</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\1f">
+      <UniqueIdentifier>{676D8739-4D7A-4110-A908-62894435C9B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\1f\1f027414b475a41ad94f57e58631509c0d1ecc51.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\1f</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\24">
+      <UniqueIdentifier>{BFDA8F69-E86D-4F8F-AFC1-D95D0F196551}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\24\2400792f64246173e005d27f82995ae7cc239b9e.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\24</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\28">
+      <UniqueIdentifier>{C19B684D-1F3A-4D3A-823D-19333716DA30}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\28\28e5b93797b717df24fb02989be0e77b5a50b007.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\28</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\34">
+      <UniqueIdentifier>{83DB7784-0941-4752-BDA3-CF4562E362D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\34\3438623bf030feafb0824fda39181e8ac4c82305.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\34</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\39">
+      <UniqueIdentifier>{1FA3F333-C39D-4E50-8031-1CBC1634EA91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\39\393ed074f22c00745b71e98a7fb29eaf16774b6f.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\39</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\3e">
+      <UniqueIdentifier>{C1B95A8B-1543-4AFA-BFEE-8EAAA8F72D67}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\3e\3ec178e11cb0a87add6681583d60f50a4facf421.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\3e</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\43">
+      <UniqueIdentifier>{9434EFD7-B777-4A56-A480-415DDC610A00}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\43\4389c725bc0df218d7db096dd0427bf27cf4a3f0.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\43</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\45">
+      <UniqueIdentifier>{2D82D63E-C73C-4AFB-87CF-9C9A4BA9DBEF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\45\45361dd029de45d7a7b9d9932d6f6d74708484c8.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\45</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\48">
+      <UniqueIdentifier>{91348D57-3145-4253-89CD-9F5FCEFAB34D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\48\482bc7dd23270efd23f6466bfe7b3da3ca2d9e60.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\48</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\4b">
+      <UniqueIdentifier>{C2271415-4D5C-40F2-AD59-FEFA233F26FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\4b\4b8dd548ae4c378b5a4d38f3744d2fbfb7781cb3.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\4b</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\4d">
+      <UniqueIdentifier>{7DB54F4B-20BB-439C-BC73-706BABAFBD66}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\4d\4d21682ce74fa48ba39e520dbae11ea9b8af0720.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\4d</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\4d\4d255f4863a22188a5aeca76fd89d88924a09922.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\4d</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\51">
+      <UniqueIdentifier>{52E5669F-128F-4C1D-9FF1-D321FE59DEFB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\51\513eedb238d4b9d5a8dc881ac55edee1df7a69ba.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\51</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\54">
+      <UniqueIdentifier>{8878D247-B826-4C9C-835A-1281C37C2EA9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\54\54e906b8713fe81c7b998957a1408c3e264336f0.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\54</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\55">
+      <UniqueIdentifier>{5B4AC77E-5DEC-4298-8CC9-2C2F0DCEBF94}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\55\55c4a647f486a902f72cc00290d90586da1cb381.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\55</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\56">
+      <UniqueIdentifier>{C9234E5E-3231-4091-8B94-E5113D465296}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\56\56fb3f1c85014a2b972423eafd382f76c735fe9e.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\56</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\59">
+      <UniqueIdentifier>{2DF8B761-91D0-4779-9CC9-D9D0312E1057}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\59\59893b49cbe43bb139d5b15e691e9e66944d2062.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\59</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\5e">
+      <UniqueIdentifier>{D61B2F42-A2A7-4262-B053-43A51AD06ED8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\5e\5e94b301795f6d46fc022d90e67a93ef1a65b865.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\5e</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\60">
+      <UniqueIdentifier>{EC459E01-357D-47CB-AD1C-15E05035FE4E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\60\60c056653c6f06f4ebeab2946268893ef9274c4a.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\60</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\67">
+      <UniqueIdentifier>{2BB2E7B6-07B7-4BBF-80D6-D9812D4C7B63}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\67\67dc2c52400df713c9c6bcd04d51edb0c0894c8b.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\67</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\68">
+      <UniqueIdentifier>{CC3F415D-E104-4401-831B-E3683B6BD364}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\68\68de738853425f27f9c86c001eb13154a19d1fb1.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\68</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\70">
+      <UniqueIdentifier>{DA7EBC61-11B9-407A-9F95-18CFC895D907}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\70\708f468869f730de63a81d550b78e43af8428396.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\70</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\77">
+      <UniqueIdentifier>{48C4B899-8A01-4363-A2B7-A02EF7E45E1D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\77\77e9c21796a276d748bc0f94c70235b079cd408a.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\77</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\81">
+      <UniqueIdentifier>{3F3E854C-FD12-4721-BB52-DBA2426A6082}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\81\81c452ad4dd727a2679b65213eb6cce19da2d4b8.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\81</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\81\81d867ff064764272b368b38036bf3e58f9b9c8f.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\81</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\8b">
+      <UniqueIdentifier>{5B0FAACD-13AA-4D1A-A4C0-60E4CA1C03AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\8b\8b52bf35ebd0648dab960c7804af96177b32d052.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\8b</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\99">
+      <UniqueIdentifier>{78151972-156F-43D9-B30F-8CDE4BB099EB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\99\9931426c4262806a46617c44a8ad846653341e89.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\99</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\9a">
+      <UniqueIdentifier>{D121629F-E4C2-40F8-9A1C-2418AC01E123}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\9a\9aca6942eda47ad094e17ca5323b5524f1c47c01.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\9a</Filter>
+    </None>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\9a\9ad60563f3f220cfbde7e6c0040575f458cfaef8.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\9a</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\9f">
+      <UniqueIdentifier>{CACCB9D7-3B2A-4B8C-B711-7875ABF602F2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\9f\9fc4f914ee0c0e491e6480253e64fd847db6e5e5.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\9f</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\a5">
+      <UniqueIdentifier>{60EA4C3B-3408-4E91-8DD1-AD32C32A9867}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\a5\a5adef32a9f9edae6678631fd4e5d2e6ed4261f3.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\a5</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\b2">
+      <UniqueIdentifier>{725A3B53-366F-4D99-AA2C-809B680F0FE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\b2\b2f77ddd645e480d0b66fbe9fdab314f43295e1b.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\b2</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\be">
+      <UniqueIdentifier>{1052FEEE-4485-443E-AE2B-F745787A3B9E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\be\be80e5961ed17e1eee2dd340523e4cfb9ed637a8.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\be</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\bf">
+      <UniqueIdentifier>{78081802-BDF0-4B37-A48E-D504DE55717C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\bf\bfc839a10d525d93fda3b19ec7c81b6af6ae6533.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\bf</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\cf">
+      <UniqueIdentifier>{9A713327-96D2-4DFB-8050-E209AB3A4BD9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\cf\cf0184392b1bfbc6ae90332c2a981b72674433d8.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\cf</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\e5">
+      <UniqueIdentifier>{75C41275-B669-4240-A8F3-C596D1EBB3D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\e5\e56a56f7b660a8ee903a5305d6984e507caab478.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\e5</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\e9">
+      <UniqueIdentifier>{D1FD20A9-9B8A-4CD7-9652-25425E8EA045}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\e9\e9f8913cf4cee3ef2335328c93589e81cbb7cebb.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\e9</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\ed">
+      <UniqueIdentifier>{2508E0AC-69D7-4A3A-834B-BB7F6E79970F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\ed\ed868b125cde36aa262c075de90ceb8502cf9643.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\ed</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\f2">
+      <UniqueIdentifier>{17EE7FA2-C8A8-4A5C-998E-4EAD4E297E6D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\f2\f261aa27ece6a2bcb883702f1095d7e7dc3b87a4.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\f2</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\f4">
+      <UniqueIdentifier>{37D7D22A-079E-49BA-991D-A5D24B706B85}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\f4\f486fe98fd4ab482a0cf0123f75688b5bea5fda7.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\f4</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\f6">
+      <UniqueIdentifier>{2E4BAA88-8AFE-42C0-9DD9-F183333BC662}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\f6\f62869bfb50eba23488db07fcd7a45dd7b24b803.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\f6</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\f7">
+      <UniqueIdentifier>{F6AF62C4-7D5C-4F1D-A16F-4AF64F0E4050}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\f7\f7b083974b147aef2595431c402c7e1e96723ebb.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\f7</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\fd">
+      <UniqueIdentifier>{1CC5D70F-04A9-4E28-80F9-9EEEBF03D8DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\fd\fd7ba53a69ed262498405f1a1919c46ec9b9ce9b.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\fd</Filter>
+    </None>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\.svn\pristine\ff">
+      <UniqueIdentifier>{331C7110-5F45-4501-9C26-A4A2BD743016}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\pristine\ff\ff9dce5361ed7d9b2c719ea75ff8cdf6488a20b5.svn-base">
+      <Filter>Source\MMC_Off_Recreation\VRBase\.svn\pristine\ff</Filter>
+    </None>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\ABaseCharacter">
-      <UniqueIdentifier>{F8E311DE-8A0A-40DF-8C5B-8BB778458C1E}</UniqueIdentifier>
+      <UniqueIdentifier>{9AEB131C-30C3-4AC7-A058-2DDF156EE624}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseCharacter\ABaseCharacter.cpp">
       <Filter>Source\MMC_Off_Recreation\VRBase\ABaseCharacter</Filter>
@@ -81,7 +372,7 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\ABaseCharacter</Filter>
     </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\ABaseEntity">
-      <UniqueIdentifier>{DB8474B3-133F-402E-B282-1D16DDB67F0D}</UniqueIdentifier>
+      <UniqueIdentifier>{EE0D9BCC-47FB-4258-8654-FBB81292A0CC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseEntity\ABaseEntity.cpp">
       <Filter>Source\MMC_Off_Recreation\VRBase\ABaseEntity</Filter>
@@ -90,7 +381,7 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\ABaseEntity</Filter>
     </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\ABaseMoving">
-      <UniqueIdentifier>{12B5E481-F66A-484B-95E2-891BEA6389B1}</UniqueIdentifier>
+      <UniqueIdentifier>{C9734392-5189-470C-997E-6397C5CFF7E1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseMoving\ABaseMoving.cpp">
       <Filter>Source\MMC_Off_Recreation\VRBase\ABaseMoving</Filter>
@@ -99,7 +390,7 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\ABaseMoving</Filter>
     </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\ABasePawn">
-      <UniqueIdentifier>{FDCA3A41-8422-40FC-9BA6-51E1DADF3BE3}</UniqueIdentifier>
+      <UniqueIdentifier>{E3207C24-9C42-4D5A-BD95-FDE29D71E4AB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABasePawn\ABasePawn.cpp">
       <Filter>Source\MMC_Off_Recreation\VRBase\ABasePawn</Filter>
@@ -108,7 +399,7 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\ABasePawn</Filter>
     </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\AGameRules">
-      <UniqueIdentifier>{426A1D68-0DC6-4375-A0B3-DD78852C72E4}</UniqueIdentifier>
+      <UniqueIdentifier>{CB5346FF-9B8A-4D79-84DC-1C6E5A68DBC9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\AGameRules\AGameRules.cpp">
       <Filter>Source\MMC_Off_Recreation\VRBase\AGameRules</Filter>
@@ -117,7 +408,7 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\AGameRules</Filter>
     </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget">
-      <UniqueIdentifier>{103ED003-762F-4C56-A4D1-2F096CD08DEF}</UniqueIdentifier>
+      <UniqueIdentifier>{702B3E27-74CF-4DF6-8979-88F93DAB23A7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget\AHMDTeleportTarget.cpp">
       <Filter>Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget</Filter>
@@ -126,7 +417,7 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\AHMDTeleportTarget</Filter>
     </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\FMovingVector">
-      <UniqueIdentifier>{2F4E708E-6757-4D34-9DDC-7F15BF39F7F4}</UniqueIdentifier>
+      <UniqueIdentifier>{52D0E73F-6DC1-41BF-A243-94BED04659AF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\FMovingVector\FMovingVector.cpp">
       <Filter>Source\MMC_Off_Recreation\VRBase\FMovingVector</Filter>
@@ -135,7 +426,7 @@
       <Filter>Source\MMC_Off_Recreation\VRBase\FMovingVector</Filter>
     </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\IBaseEntity">
-      <UniqueIdentifier>{92F7CEB7-FFC9-418F-88A5-7D4272B5F2A5}</UniqueIdentifier>
+      <UniqueIdentifier>{B8F50754-BD57-4D73-8DBB-D34FA9CEE293}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\CTakeDamageInfo.h">
       <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
@@ -155,8 +446,23 @@
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\IBaseEntity\IBaseEntity_flags.h">
       <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
     </ClInclude>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\LineTools">
+      <UniqueIdentifier>{D31D1C9B-456A-44DD-AA3F-A7FB916D5455}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\LineDrawer.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\LineDrawer.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\linetools.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\linetools.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
+    </ClInclude>
     <Filter Include="Source\MMC_Off_Recreation\VRBase\System">
-      <UniqueIdentifier>{C680D7D8-DF30-406F-A6D8-7425E449CAFE}</UniqueIdentifier>
+      <UniqueIdentifier>{913159A3-3676-4562-8703-5DC2C28609BD}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\EHandle.h">
       <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
@@ -190,18 +496,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Source\MMC_Off_Recreation\VRBase\LineTools">
-      <UniqueIdentifier>{2b7ecd4d-d5f5-4649-adfe-030b4ee601ca}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\linetools.cpp">
+    <ClInclude Include="linejob.h">
       <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\LineTools\linetools.h">
-      <Filter>Source\MMC_Off_Recreation\VRBase\LineTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\system.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
