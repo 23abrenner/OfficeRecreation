@@ -406,7 +406,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\MMC_Off_Recreation-HTML5-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseController\ABaseController.h" />
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\system.h" />
+    <ClInclude Include="IBaseEntity_Input.h" />
     <ClInclude Include="linejob.h" />
     <None Include="..\..\MMC_Off_Recreation.uproject" />
     <None Include="..\..\Source\MMC_Off_Recreation.Target.cs" />
@@ -421,6 +423,7 @@
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\MMC_Off_Recreation.cpp" />
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\MMC_Off_Recreation.h" />
     <None Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.Build.cs" />
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseController\ABaseController.cpp" />
     <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.cpp" />
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\VRBase.h" />
     <None Include="..\..\Source\MMC_Off_Recreation\VRBase\.svn\entries" />

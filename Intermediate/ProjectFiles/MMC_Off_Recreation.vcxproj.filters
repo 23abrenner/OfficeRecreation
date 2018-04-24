@@ -502,5 +502,21 @@
     <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\System\system.h">
       <Filter>Source\MMC_Off_Recreation\VRBase\System</Filter>
     </ClInclude>
+    <ClInclude Include="IBaseEntity_Input.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\IBaseEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseController\ABaseController.h">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseController</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\MMC_Off_Recreation\VRBase\ABaseController">
+      <UniqueIdentifier>{1a59bdc1-adc7-49ea-8c39-039d37e4bec1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MMC_Off_Recreation\VRBase\ABaseController\ABaseController.cpp">
+      <Filter>Source\MMC_Off_Recreation\VRBase\ABaseController</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
