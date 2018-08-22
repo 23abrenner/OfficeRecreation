@@ -1,7 +1,7 @@
 {
 	"TargetName" : "MMC_Off_RecreationEditor",
 	"Platform" : "Win64",
-	"Configuration" : "Development",
+	"Configuration" : "DebugGame",
 	"BuildId" : "7d5229ac-d3e2-4191-ac6f-9a43d8706aee",
 	"Version" : 
 	{
@@ -952,15 +952,15 @@
 			"IsPrecompiled" : true
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation-Win64-DebugGame.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation-Win64-DebugGame.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-MMC_Off_Recreation.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/DebugGame/UE4Editor-MMC_Off_Recreation-Win64-DebugGame.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
@@ -5569,7 +5569,7 @@
 			"IsPrecompiled" : true
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor.modules",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Win64-DebugGame.modules",
 			"Type" : "RequiredResource"
 		}
 	],
