@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation-5421.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation-9465.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation-5421.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MMC_Off_Recreation-9465.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-MMC_Off_Recreation-5421.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-MMC_Off_Recreation-9465.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

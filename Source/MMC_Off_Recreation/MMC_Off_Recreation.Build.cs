@@ -13,6 +13,7 @@ public class MMC_Off_Recreation : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { "HeadMountedDisplay", "SteamVR" });
 
 		PublicIncludePaths.Add("C:/Users/Public/Documents/Public Projects/MMC_Off_Recreation/Source/MMC_Off_Recreation/VRBase");
+        PublicIncludePaths.Add("C:/Users/Public/Documents/Public Projects/MMC_Office_Recreation/Source/MMC_Off_Recreation/VRBase");
         PublicIncludePaths.Add("C:/Users/Public/Public Projects/MMC-Office-Recreation/Source/MMC_Off_Recreation/VRBase");
 
         // Uncomment if you are using Slate UI
