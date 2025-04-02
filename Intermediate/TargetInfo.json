@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "OfficeRecreation",
+			"Path": "..\\Source\\OfficeRecreation.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "OfficeRecreationEditor",
+			"Path": "..\\Source\\OfficeRecreationEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
